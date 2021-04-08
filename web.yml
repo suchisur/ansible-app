@@ -1,0 +1,12 @@
+---
+-
+  become: true
+  become_method: sudo
+  hosts: target
+  name: Playbook
+  tasks:
+    -
+      args:
+        creates: log1.txt
+      name: "running a shell script"
+      script: somescript.sh
