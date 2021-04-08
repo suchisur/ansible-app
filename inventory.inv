@@ -1,0 +1,2 @@
+[target]
+slave ansible_host=13.127.31.48
